@@ -1,0 +1,13 @@
+{
+  "name": "coursework-vue",
+  "version": "1.0.0",
+  "description": "Heroku App",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express",
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js",
+    "start": "node server.js"
+  }
+}
